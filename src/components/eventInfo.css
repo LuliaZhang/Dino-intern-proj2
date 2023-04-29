@@ -1,0 +1,88 @@
+.infoContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* height: 100%; */
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    color: rgba(0,0,0,.85);
+    align-items: center;
+}
+
+.name{
+    font-size: large;
+    text-align: center;
+}
+.summary{
+    color: #a6a1cc;
+    display: flex;
+    text-align: center;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    /* font-family: "Roboto", sans-serif; */
+    align-items: start;
+    width: 100%;
+    color: gray;
+    border: 1px;
+}
+
+
+.location{
+    display: flex;
+    flex-direction: row;
+}
+
+.locIcon{
+    width: 40px;
+    height: 20px;
+}
+
+.link{
+    display: flex;
+    flex-direction: row;
+    /* height: 20px; */
+}
+
+.linkIcon{
+    /* width: 10%; */
+    width: 40px;
+    height: 20px;
+}
+
+.linkText{
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    /* color: gray; */
+}
+
+.time{
+    display: flex;
+    flex-direction: row;
+    /* height: 20px; */
+}
+
+.timeIcon{
+    /* width: 10%; */
+    width: 40px;
+    height: 20px;
+}
+
+.description{
+    display: flex;
+    flex-direction: row;
+    /* height: 20px; */
+}
