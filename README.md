@@ -2,8 +2,11 @@
 
 ## Functionalities
 
-In this project, an interactive webpage component is implemented. 
+In this project, an interactive webpage component is implemented.
 
+Google Map API was chosen to provide the necessary features. 
+
+The app showcases a marker indicating the location of an event, and upon clicking the thumbnail, it displays the details of a list of events taking place at the same location.
 
 # Getting Started with Create React App
 

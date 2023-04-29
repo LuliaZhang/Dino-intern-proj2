@@ -1,6 +1,7 @@
 import React from "react";
 import "./eventInfo.css";
 
+// this component shows the details of an event
 const EventInfo = (data) =>{
     return(
         <div className="infoContainer">
@@ -11,7 +12,7 @@ const EventInfo = (data) =>{
 
             <div className="details">
                 <p>{data.thisEvent.activity_organizer} • {data.thisEvent.activity_category} • ${data.thisEvent.activity_cost}</p>
-                
+
                 <p className="location">
                     <span className="locIcon">
                         <svg>

@@ -4,17 +4,21 @@ import Modal from 'react-modal';
 import EventInfo from "./eventInfo";
 import "./customMarker.css"
 
+// this component builds a customized marker for an event group
 const CustomMarker = ({data}) =>{
     const [isOpen, setIsOpen] = useState(false);
 
+    // close the modal
     const closeModal = () => {
         setIsOpen(false);
     };
 
+    // open the modal once merker is clicked
     const handleMerkerClick = () =>{
         setIsOpen(true);
     }
 
+    // the dialog box icon used for marker
     const customIcon= {
         path: "M 20 -25 a 5 5 0 0 1 5 5 v 40 a 5 5 0 0 1 -5 5 h -10 l -5 5 l -5 -5 h -20 a 5 5 0 0 1 -5 -5 v -40 a 5 5 0 0 1 5 -5 z",
         fillColor: "white",
@@ -24,6 +28,7 @@ const CustomMarker = ({data}) =>{
         scale: 1,
     };
 
+    // the style of popup modal window
     const customStyles = {
         content: {
             width: '50%',
