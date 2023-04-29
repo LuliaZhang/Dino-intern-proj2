@@ -30,7 +30,6 @@ const App = () => {
       locationDict[key].push(data[i]);
     }
   }
- 
 
   return (
     <div className="App">
